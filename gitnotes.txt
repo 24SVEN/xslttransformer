@@ -1,0 +1,15 @@
+http://tony.halcyonlane.com/blog/2011/09/22/Using-git-at-work-on-a-Windows-network-drive/
+
+To install the most recent version of GIT, first get a copy form the artifactory. Then security seems to unblock GIT
+
+Also Freddie mac seems to have Git courses available
+
+To create a Bare repository
+- Open cmd
+- Create empty folder for the bare git repo
+- Navigate to shared folder (use cd /d g://)
+- git init -bare
+- Navigate to the local repo (visual studio project folder)
+- git remote add origin file://g:\\scripts (use quotation for directory with space ex: G:\"Tech Team"\Git [DON't FORGET 2 BACKSLASH G:\\]
+- git push origin master
+- Refer to website link above for help
